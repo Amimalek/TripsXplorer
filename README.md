@@ -1,24 +1,38 @@
-# TripsXplorer
-This project uses React, Next.js, and Bootstrap 5 to create a user interface for accessing "Trips" API data. 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Project Overview:
+## Getting Started
 
-Objective: Build a user-friendly interface for accessing and viewing trip data from the "Trips" API using React and Next.js.
+First, run the development server:
 
-Key Components:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-React-Bootstrap Components: You will be using React-Bootstrap (Bootstrap 5) components to create the user interface. This can include elements like navigation bars, cards, buttons, forms, and more.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Trips API Integration: You will integrate the "Trips" API you previously worked on into your React application to fetch and display trip data.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-Features and Functionality:
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-View Trips: Users can access and view a list of available trips.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-Trip Details: Clicking on a trip card or item should provide detailed information about that specific trip, including its itinerary, pricing, and other relevant details.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Search and Filters: Implement functionality to allow users to search for specific trips or apply filters to refine their search based on criteria such as destination, date, or price range.
+## Learn More
 
-Styling: While you have the freedom to style your app as you wish, you can utilize Bootstrap 5 to ensure a clean and responsive design.
+To learn more about Next.js, take a look at the following resources:
 
-Additional Features: You have the flexibility to add extra features, such as image galleries, user reviews, or interactive maps to enhance the user experience.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
