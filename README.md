@@ -1,8 +1,6 @@
 # TripsXplorer
 This project uses React, Next.js, and Bootstrap 5 to create a user interface for accessing "Trips" API data. 
 
-Certainly! It sounds like your project involves creating a rich user interface for accessing data from the "Trips" API you worked on in Assignment 1. You will be using React and Next.js to build this interface. Here's a brief description of your project:
-
 Project Overview:
 
 Objective: Build a user-friendly interface for accessing and viewing trip data from the "Trips" API using React and Next.js.
